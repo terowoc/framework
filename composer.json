@@ -11,9 +11,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "Terowoc\\Framework\\": "framework/"
+            "Terowoc\\Framework\\": "src/"
         }
+    },
+    "require": {
+        "php": "^8.2"
     },
     "require-dev": {
         "laravel/pint": "^1.13",
