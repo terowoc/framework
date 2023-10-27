@@ -11,13 +11,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "Terowoc\\Framework\\": "src/"
+            "Terowoc\\Framework\\": "src/",
+            "App\\": "app/"
         }
     },
     "require": {
         "php": "^8.2"
     },
     "require-dev": {
-        "symfony/var-dumper": "^6.3",
+        "symfony/var-dumper": "^6.3"
     }
 }
